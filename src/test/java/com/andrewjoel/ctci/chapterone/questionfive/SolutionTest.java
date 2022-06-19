@@ -23,7 +23,9 @@ class SolutionTest {
                 Arguments.of("pale", "ple", true),
                 Arguments.of("pales", "pale", true),
                 Arguments.of("pale", "bale", true),
-                Arguments.of("pale", "bake", false)
+                Arguments.of("pale", "bake", false),
+                Arguments.of(null, null, false),
+                Arguments.of("pale", "rhythm", false)
         );
     }
 
